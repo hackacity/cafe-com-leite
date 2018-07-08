@@ -1,8 +1,6 @@
 <template>
   <div>
     <mgl-map
-      @click="clickHandler"
-      ref="map"
       class="map"
       :accessToken="accessToken"
       :mapStyle.sync="mapStyle"

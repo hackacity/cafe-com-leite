@@ -42,7 +42,7 @@
 
           <v-divider inset></v-divider>
 
-          <v-list-tile @click="">
+          <v-list-tile>
             <v-list-tile-action>
               <v-icon color="indigo"></v-icon>
             </v-list-tile-action>
@@ -57,7 +57,7 @@
             </v-list-tile-action>
           </v-list-tile>
 
-          <v-list-tile @click="">
+          <v-list-tile>
             <v-list-tile-action></v-list-tile-action>
 
             <v-list-tile-content>
@@ -72,7 +72,7 @@
 
           <v-divider inset></v-divider>
 
-          <v-list-tile @click="">
+          <v-list-tile>
             <v-list-tile-action>
               <v-icon color="indigo">mail</v-icon>
             </v-list-tile-action>
@@ -85,7 +85,7 @@
 
           <v-divider inset></v-divider>
 
-          <v-list-tile @click="">
+          <v-list-tile>
             <v-list-tile-action>
               <v-icon color="indigo">location_on</v-icon>
             </v-list-tile-action>
