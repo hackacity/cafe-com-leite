@@ -31,7 +31,7 @@
         </v-card-media>
 
         <v-list two-line>
-          <v-list-tile @click="">
+          <v-list-tile>
             <v-list-tile-action></v-list-tile-action>
 
             <v-list-tile-content>

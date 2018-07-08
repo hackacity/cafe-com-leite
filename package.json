@@ -8,10 +8,12 @@
     "dev": "HOST=0.0.0.0 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "yarn generate && gh-pages -d dist"
   },
   "dependencies": {
     "firebase": "^5.2.0",
+    "gh-pages": "^1.2.0",
     "nuxt": "^1.0.0",
     "vuetify": "^1.0.0"
   },
